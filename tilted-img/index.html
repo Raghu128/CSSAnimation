@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box - Rotate</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+        }
+        
+        .content {
+            width: 400px;
+            height: 400px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 200px ;
+            height: 200px;
+            border: 3px solid red;
+            color: black;
+            background-color: rgb(65, 65, 65);
+        }
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+    
+
+    <div class="content">
+
+        <div class="box" data-tilt data-tilt-glare>Box</div>
+
+    </div>
+
+    <script src="tilt.js"></script>
+</body>
+</html>
